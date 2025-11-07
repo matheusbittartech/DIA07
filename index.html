@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosso capítulo 11 • Feliz dia 07</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="heartCanvas" aria-hidden="true"></canvas>
+  <main class="page">
+    <header class="hero" id="inicio">
+      <div class="hero__inner">
+        <span class="hero__tag" data-reveal>11 meses & além</span>
+        <h1 class="hero__title" data-reveal>Princesa, você transforma tudo em magia</h1>
+        <p class="hero__subtitle" data-reveal>
+          Hoje celebro cada detalhe que vivemos e todo o futuro que já estamos construindo juntos.
+        </p>
+        <div class="hero__actions" data-reveal>
+          <button class="btn" id="open-letter">Abrir nossa carta secreta</button>
+          <a class="btn btn--ghost" href="#memorias">Reviver memórias</a>
+        </div>
+      </div>
+      <div class="hero__collage">
+        <figure class="collage-card collage-card--one" data-reveal>
+          <img src="foto1.jpg" alt="Nós dois brindando em um jantar especial" loading="lazy" />
+          <figcaption>Noite que virou tradição</figcaption>
+        </figure>
+        <figure class="collage-card collage-card--two" data-reveal>
+          <img src="foto2.jpg" alt="Beijo apaixonado à beira do lago" loading="lazy" />
+          <figcaption>Beijos com vista pro nosso futuro</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <section class="milestones" aria-label="Principais momentos" id="momentos">
+      <div class="section-heading">
+        <span class="section-badge" data-reveal>Nossa linha do tempo</span>
+        <h2 data-reveal>Momentos que guardo na memória</h2>
+        <p data-reveal>Cada capítulo com você é um lembrete de que encontrei minha melhor companhia.</p>
+      </div>
+
+      <div class="milestones__grid">
+        <article class="milestone" data-reveal>
+          <span class="milestone__icon">🌟</span>
+          <h3>Primeiro encontro</h3>
+          <p>A timidez deu espaço ao riso fácil e eu já sabia: queria repetir aquilo para sempre.</p>
+        </article>
+        <article class="milestone" data-reveal>
+          <span class="milestone__icon">💌</span>
+          <h3>Primeira declaração</h3>
+          <p>Foi quando minhas palavras decidiram morar no teu coração — e nunca mais saíram.</p>
+        </article>
+        <article class="milestone" data-reveal>
+          <span class="milestone__icon">🌅</span>
+          <h3>Viagem inesquecível</h3>
+          <p>Você roubou toda a beleza de Gramado para você e, ali, tive a prova: eu estava cada vez mais apaixonado.</p>
+        </article>
+        <article class="milestone" data-reveal>
+          <span class="milestone__icon">💞</span>
+          <h3>11 meses de nós</h3>
+          <p>Seguimos crescendo lado a lado, somando sonhos e colecionando versões melhores de nós.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery" id="memorias" aria-label="Galeria de memórias">
+      <div class="section-heading">
+        <span class="section-badge" data-reveal>Nosso álbum vivo</span>
+        <h2 data-reveal>Pequenos quadros, infinitos sentimentos</h2>
+        <p data-reveal>Aqui vai um breve poema desenhado em cada lembrança.</p>
+      </div>
+
+      <div class="gallery__grid">
+        <figure class="photo-card" data-reveal>
+          <img src="foto1.jpg" alt="Nós dois sorrindo segurando xícaras de café" loading="lazy" />
+          <figcaption>No calor do café, teu sorriso adoça minha noite.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto2.jpg" alt="Beijo à beira do lago" loading="lazy" />
+          <figcaption>Onde o lago descansa, meu coração te encontra no reflexo.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto3.jpg" alt="Você em uma carruagem de flores" loading="lazy" />
+          <figcaption>Princesa real que transforma jardim em conto nosso.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto4.jpg" alt="Momento carinhoso número quatro" loading="lazy" />
+          <figcaption>Luz de fim de tarde, teu rosto vira farol para meus passos.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto5.jpg" alt="Momento carinhoso número cinco" loading="lazy" />
+          <figcaption>Até no cochilo da estrada dividimos o mesmo sonho manso.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto6.jpg" alt="Momento carinhoso número seis" loading="lazy" />
+          <figcaption>À beira do rio aprendi que amar é repousar no teu abraço.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto7.jpg" alt="Momento carinhoso número sete" loading="lazy" />
+          <figcaption>Coragem veste colete quando teu riso segura minha mão.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto8.jpg" alt="Momento carinhoso número oito" loading="lazy" />
+          <figcaption>Nas águas correntes, teu abraço transborda alegria.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto9.jpg" alt="Momento carinhoso número nove" loading="lazy" />
+          <figcaption>Sol de meio-dia, tu és sombra doce que refresca meus dias.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto10.jpg" alt="Momento carinhoso número dez" loading="lazy" />
+          <figcaption>No deserto de areia teus beijos sopram ventos de coragem.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto11.jpg" alt="Momento carinhoso número onze" loading="lazy" />
+          <figcaption>Sobre ondas mansas teu riso aponta sempre para casa.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto12.jpg" alt="Momento carinhoso número doze" loading="lazy" />
+          <figcaption>Te vejo remar e aprendo: amor também é admirar de longe.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto13.jpg" alt="Momento carinhoso número treze" loading="lazy" />
+          <figcaption>Tu és poema em equilíbrio, leve e firme como teu passo.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto14.jpg" alt="Momento carinhoso número quatorze" loading="lazy" />
+          <figcaption>Descobrimos fortuna nos laços e gargalhadas compartilhadas.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto15.jpg" alt="Momento carinhoso número quinze" loading="lazy" />
+          <figcaption>Mesmo rodeado de mares, teus olhos são meu mundo preferido.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto16.jpg" alt="Momento carinhoso número dezesseis" loading="lazy" />
+          <figcaption>Planetas brilham, mas é teu beijo que acende meu universo.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto17.jpg" alt="Momento carinhoso número dezessete" loading="lazy" />
+          <figcaption>Gramado nos envolve e teu ombro vira inverno quentinho.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto18.jpg" alt="Momento carinhoso número dezoito" loading="lazy" />
+          <figcaption>Luzes do lago piscam confessando: meu lugar é teu colo.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto19.jpg" alt="Momento carinhoso número dezenove" loading="lazy" />
+          <figcaption>Entre abraços de família teu carinho amplia o que é casa.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto20.jpg" alt="Momento carinhoso número vinte" loading="lazy" />
+          <figcaption>Até a cabra sorri quando sente o amor que espalhamos.</figcaption>
+        </figure>
+        <figure class="photo-card" data-reveal>
+          <img src="foto21.jpg" alt="Momento carinhoso número vinte e um" loading="lazy" />
+          <figcaption>No brilho da noite, dançamos entre luzes e promessas.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="letter" id="carta" aria-live="polite">
+      <div class="section-heading">
+        <span class="section-badge" data-reveal>Surpresa</span>
+        <h2 data-reveal>Uma carta só nossa</h2>
+        <p data-reveal>Para revelar a carta secreta, clique no botão “Abrir nossa carta secreta” lá no topo.</p>
+      </div>
+
+      <div class="letter__envelope" data-reveal>
+        <div class="letter__flap"></div>
+        <div class="letter__paper">
+          <div class="letter__message" id="letterMessage"></div>
+          <span class="letter__signature">Feliz nosso dia 07 ✨</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Com amor, de quem é eternamente grato por ter você.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
